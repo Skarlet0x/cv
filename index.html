@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Petra Bajac — CV</title>
+<style>
+  :root{
+    --accent:#b1502f;
+    --ink:#1c1c1c;
+    --sub:#5a5a5a;
+    --line:#e4dfd8;
+    --bg:#fbf9f6;
+    --card:#ffffff;
+    --maxw:960px;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);
+    background:var(--bg);
+    line-height:1.5;
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:40px 24px 80px;}
+  .topbar{
+    display:flex;justify-content:flex-end;align-items:center;gap:10px;
+    margin-bottom:24px;
+  }
+  .lang-toggle{
+    display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;
+    font-size:13px;
+  }
+  .lang-toggle button{
+    border:0;background:var(--card);color:var(--sub);padding:7px 14px;cursor:pointer;
+    font-weight:600;letter-spacing:.02em;
+  }
+  .lang-toggle button.active{background:var(--accent);color:#fff;}
+  .pdf-link{
+    font-size:13px;color:var(--sub);text-decoration:none;border:1px solid var(--line);
+    border-radius:8px;padding:7px 14px;background:var(--card);font-weight:600;
+  }
+  .pdf-link:hover{border-color:var(--accent);color:var(--accent);}
+
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:40px;}
+  header.head{display:flex;gap:28px;align-items:flex-start;flex-wrap:wrap;margin-bottom:8px;}
+  .photo{
+    width:96px;height:96px;border-radius:50%;object-fit:cover;flex-shrink:0;
+    border:2px solid var(--line);
+  }
+  h1{font-size:32px;margin:0 0 6px;color:var(--accent);}
+  .tagline{color:var(--sub);max-width:60ch;font-size:15px;}
+  .tagline b{color:var(--ink);}
+
+  .grid{display:grid;grid-template-columns:2fr 1fr;gap:40px;margin-top:32px;}
+  @media (max-width:700px){
+    .grid{grid-template-columns:1fr;}
+    .card{padding:24px;}
+    header.head{flex-direction:column;}
+  }
+
+  h2{
+    font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);
+    border-bottom:1px solid var(--line);padding-bottom:8px;margin:0 0 16px;
+  }
+  section.block{margin-bottom:32px;}
+  .job{margin-bottom:22px;}
+  .job:last-child{margin-bottom:0;}
+  .job h3{font-size:15px;margin:0 0 2px;}
+  .job .meta{font-size:12.5px;color:var(--sub);text-transform:uppercase;letter-spacing:.02em;margin-bottom:8px;}
+  .job ul{margin:0;padding-left:18px;}
+  .job li{margin-bottom:5px;font-size:14px;}
+  .job li b{color:var(--ink);}
+
+  .side h2{margin-top:0;}
+  .contact-list{list-style:none;margin:0 0 32px;padding:0;font-size:14px;}
+  .contact-list li{margin-bottom:8px;}
+  .contact-list a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line);}
+  .contact-list a:hover{color:var(--accent);border-color:var(--accent);}
+
+  .skill-group{margin-bottom:16px;}
+  .skill-group h4{font-size:13px;margin:0 0 4px;color:var(--ink);}
+  .skill-group p{margin:0;font-size:13px;color:var(--sub);}
+
+  .tag-list{display:flex;flex-wrap:wrap;gap:6px;}
+  .tag-list span{
+    font-size:12px;background:var(--bg);border:1px solid var(--line);border-radius:999px;
+    padding:3px 10px;color:var(--sub);
+  }
+
+  footer{text-align:center;color:var(--sub);font-size:12px;margin-top:32px;}
+
+  [data-lang="en"] .lang-de{display:none;}
+  [data-lang="de"] .lang-en{display:none;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="topbar">
+    <a class="pdf-link lang-en" href="CV-Petra-Bajac-EN.pdf" target="_blank" rel="noopener">Download PDF</a>
+    <a class="pdf-link lang-de" href="CV-Petra-Bajac-DE.pdf" target="_blank" rel="noopener">PDF herunterladen</a>
+    <div class="lang-toggle">
+      <button id="btn-en" onclick="setLang('en')">EN</button>
+      <button id="btn-de" onclick="setLang('de')">DE</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <header class="head">
+      <div>
+        <h1>Petra Bajac</h1>
+        <p class="tagline lang-en"><b>AI Engineer</b> specialized in production LLM systems, with a background in computational linguistics and NLP. Builds LLM pipelines, AI agents and data pipelines end to end, from use-case discovery and evaluation to deployment and handover. Previously developed voice assistant prototypes at Mercedes-Benz. Founder of an indie app studio shipping mobile and web products.</p>
+        <p class="tagline lang-de"><b>AI Engineer</b> mit Fokus auf LLM-Systeme und Hintergrund in Computerlinguistik und NLP. Entwickelt LLM- und Datenpipelines sowie KI-Agenten end-to-end – von der Use-Case-Analyse und Evaluation bis zu Deployment und Übergabe. Zuvor Entwicklung von Sprachassistenz-Prototypen bei Mercedes-Benz. Gründerin eines Indie-App-Studios für Mobile- und Web-Produkte.</p>
+      </div>
+    </header>
+  </div>
+
+  <div class="grid">
+    <main>
+      <div class="card">
+        <section class="block">
+          <h2 class="lang-en">Work Experience</h2>
+          <h2 class="lang-de">Berufserfahrung</h2>
+
+          <div class="job">
+            <h3>AI Engineer</h3>
+            <div class="meta lang-en">Wavesix Labs · August 2025–Present · Remote</div>
+            <div class="meta lang-de">Wavesix Labs · August 2025–Heute · Remote</div>
+            <ul class="lang-en">
+              <li>Designed and delivered <b>LLM-powered automations, data pipelines and AI assistants</b> for 10+ clients in various sectors, from use-case discovery to handover.</li>
+              <li>Built <b>data and lead generation pipelines</b> in Python with LLM-based enrichment, classification and scoring, drawing on sources such as business registers, Apollo and Google Maps.</li>
+              <li>Ensured production-grade reliability through automated testing, retries, checkpointing, cost controls and full logging of LLM and API calls.</li>
+              <li><b>Built AI agents and chatbots</b> for marketing, content generation, CRM outreach and internal operations.</li>
+              <li><b>Automated business workflows</b>, from e-commerce and warehouse data processing to LLM-assisted document review in Microsoft Word.</li>
+              <li><b>Wrote AI governance documentation</b> aligned with the EU AI Act and ISO/IEC 42001, and ran AI discovery workshops and use-case prioritization.</li>
+            </ul>
+            <ul class="lang-de">
+              <li>Umsetzung von <b>LLM-Automatisierungen, Datenpipelines und KI-Assistenten</b> für 10+ Kunden verschiedener Branchen, von der Use-Case-Analyse bis zur Übergabe.</li>
+              <li>Aufbau von <b>Daten- und Lead-Generierungs-Pipelines</b> in Python mit LLM-basierter Anreicherung, Klassifizierung und Bewertung aus Quellen wie Handelsregistern, Apollo und Google Maps.</li>
+              <li>Produktionsreife Zuverlässigkeit durch automatisierte Tests, Retries, Checkpointing, Kostenkontrolle und vollständiges Logging aller LLM- und API-Aufrufe.</li>
+              <li><b>Entwicklung von KI-Agenten und Chatbots</b> für Marketing, Content-Erstellung, CRM-Outreach und interne Abläufe.</li>
+              <li><b>Automatisierung von Geschäftsprozessen</b>, von E-Commerce- und Lagerdatenverarbeitung bis zur LLM-gestützten Dokumentenprüfung in Microsoft Word.</li>
+              <li><b>Erstellung von KI-Governance-Dokumentation</b> gemäß EU AI Act und ISO/IEC 42001 sowie Leitung von KI-Discovery-Workshops und Use-Case-Priorisierung.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <h3 class="lang-en">Founder &amp; Full-Stack Developer</h3>
+            <h3 class="lang-de">Gründerin &amp; Full-Stack-Entwicklerin</h3>
+            <div class="meta lang-en">Skarlet Forge · January 2026–Present · Part-time</div>
+            <div class="meta lang-de">Skarlet Forge · Januar 2026–Heute · Teilzeit</div>
+            <ul class="lang-en">
+              <li>Developed and released a family of <b>mobile apps</b> on Google Play, including CI/CD pipelines, staged rollouts and in-app-purchase monetization.</li>
+              <li>Built an <b>AI lead-qualification pipeline</b> for a real-estate client, combining rule-based and LLM scoring, automated messaging workflows, a sales dashboard and voice-bot integration.</li>
+              <li>Built a <b>3D-to-2D CAD automation prototype</b> for a manufacturing client, converting STEP models into fully dimensioned DIN-style engineering drawings using a rule engine with a learn-from-correction feedback loop.</li>
+            </ul>
+            <ul class="lang-de">
+              <li>Entwicklung und Veröffentlichung mehrerer <b>Mobile-Apps</b> auf Google Play, inkl. CI/CD-Pipelines, gestaffelter Rollouts und Monetarisierung per In-App-Käufen.</li>
+              <li>Aufbau einer <b>KI-Pipeline zur Lead-Qualifizierung</b> für einen Immobilienkunden mit regelbasiertem und LLM-Scoring, automatisierten Messaging-Workflows, Sales-Dashboard und Voicebot-Integration.</li>
+              <li>Entwicklung eines <b>3D-zu-2D-CAD-Automatisierungsprototyps</b> für einen Fertigungskunden, der STEP-Modelle mittels einer aus Korrekturen lernenden Regel-Engine in vollständig bemaßte technische Zeichnungen nach DIN umwandelt.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <h3>AI Engineer</h3>
+            <div class="meta lang-en">Freelance · September 2024–August 2025 · Remote</div>
+            <div class="meta lang-de">Freiberuflich · September 2024–August 2025 · Remote</div>
+            <ul class="lang-en">
+              <li>Developed GenAI solutions for clients, from rapid prototypes and workflow automations to LLM pipelines, RAG systems and custom agents.</li>
+            </ul>
+            <ul class="lang-de">
+              <li>Entwicklung von GenAI-Lösungen für Kunden, von schnellen Prototypen und Workflow-Automatisierungen bis zu LLM-Pipelines, RAG-Systemen und individuellen Agenten.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <h3 class="lang-en">Development Engineer</h3>
+            <h3 class="lang-de">Entwicklungsingenieurin</h3>
+            <div class="meta">Mercedes-Benz · June 2022–June 2024 · Sindelfingen</div>
+            <ul class="lang-en">
+              <li>Co-developed the in-house <b>speech prototyping toolchain</b>, enabling sandboxed voice prototype testing with access to in-vehicle IoT functions.</li>
+              <li>Built prototypes for the <b>HeyMercedes! voice assistant</b> in this toolchain, designing dialog flows, speech output and decision-table-based intent recognition.</li>
+              <li>Fine-tuned the underlying ML model for intent recognition and connected the voice and language backend to frontend UIs in ProtoPie.</li>
+              <li>Tested prototypes on benches, in real vehicles and in driving simulators. Prototypes were used for POCs, UX studies and driver distraction studies, with contributions to study design and validation.</li>
+            </ul>
+            <ul class="lang-de">
+              <li>Mitentwicklung der internen <b>Sprachprototyping-Toolchain</b> für Sandbox-Tests von Sprachprototypen mit Zugriff auf IoT-Funktionen im Fahrzeug.</li>
+              <li>Entwicklung von Prototypen für den Sprachassistenten <b>HeyMercedes!</b> in dieser Toolchain, inkl. Dialogdesign, Sprachausgabe und Intent-Erkennung auf Basis von Entscheidungstabellen.</li>
+              <li>Fine-Tuning des zugrunde liegenden ML-Modells zur Intent-Erkennung und Anbindung des Voice- und NLU-Backends an Frontend-UIs in ProtoPie.</li>
+              <li>Tests der Prototypen auf Prüfständen, in realen Fahrzeugen und im Fahrsimulator. Einsatz der Prototypen für POCs, UX- und Fahrerablenkungsstudien, mit Beiträgen zu Studiendesign und Validierung.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <h3 class="lang-en">Data Annotator</h3>
+            <h3 class="lang-de">Datenannotatorin</h3>
+            <div class="meta">Fiverr · August 2020–April 2022 · Stuttgart</div>
+            <ul class="lang-en"><li>Annotated, cleaned and analyzed data for sentiment analysis and text classification.</li></ul>
+            <ul class="lang-de"><li>Annotation, Bereinigung und Analyse von Daten für Sentimentanalyse und Textklassifikation.</li></ul>
+          </div>
+
+          <div class="job">
+            <h3 class="lang-en">Data Analyst</h3>
+            <h3 class="lang-de">Datenanalystin</h3>
+            <div class="meta lang-en">Takelab · January 2020–July 2020 · Zagreb, Croatia</div>
+            <div class="meta lang-de">Takelab · Januar 2020–Juli 2020 · Zagreb, Kroatien</div>
+            <ul class="lang-en"><li>Analyzed and annotated text corpora for climate change research, word sense disambiguation and co-reference resolution, deriving insights for model improvement.</li></ul>
+            <ul class="lang-de"><li>Analyse und Annotation von Textkorpora für Klimawandelforschung, Wortsinndisambiguierung und Koreferenzauflösung sowie Ableitung von Erkenntnissen zur Modellverbesserung.</li></ul>
+          </div>
+        </section>
+
+        <section class="block" style="margin-bottom:0;">
+          <h2 class="lang-en">Education</h2>
+          <h2 class="lang-de">Ausbildung</h2>
+          <div class="job">
+            <h3 class="lang-en">MA English and Computational Linguistics</h3>
+            <h3 class="lang-de">MA Englisch und Computerlinguistik</h3>
+            <div class="meta lang-en">University of Zagreb · October 2018–March 2022</div>
+            <div class="meta lang-de">Universität Zagreb · Oktober 2018–März 2022</div>
+            <ul class="lang-en">
+              <li><b>GPA:</b> 4.6 on a 5.0 scale.</li>
+              <li><b>Scholarships:</b> Academic excellence scholarship from the City of Karlovac (2018/2019) and the University of Zagreb (2019/2020) — top 10% of students.</li>
+              <li><b>Published paper:</b> Kocijan K., Košković L., Bajac P. (2020). Detecting Hate Speech Online: A Case of Croatian. NooJ 2019, Springer CCIS vol. 1153.</li>
+            </ul>
+            <ul class="lang-de">
+              <li><b>Notendurchschnitt:</b> 4,6 von 5,0 (5,0 = beste Note).</li>
+              <li><b>Stipendien:</b> Stipendium für herausragende Studienleistungen der Stadt Karlovac (2018/2019) und der Universität Zagreb (2019/2020) — Top 10 % der erfolgreichsten Studierenden.</li>
+              <li><b>Publikation:</b> Kocijan K., Košković L., Bajac P. (2020). Detecting Hate Speech Online: A Case of Croatian. NooJ 2019, Springer CCIS vol. 1153.</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <aside class="side">
+      <div class="card">
+        <h2 class="lang-en">Contact</h2>
+        <h2 class="lang-de">Kontakt</h2>
+        <ul class="contact-list">
+          <li class="lang-en">Waiblingen, Germany</li>
+          <li class="lang-de">Waiblingen, Deutschland</li>
+          <li><a href="mailto:petra.bajac00@hotmail.com">petra.bajac00@hotmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/petra-bajac" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/Skarlet0x" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://skarletforge.com" target="_blank" rel="noopener">skarletforge.com</a></li>
+          <li><a href="https://play.google.com/store/apps/developer?id=Skarlet+Forge" target="_blank" rel="noopener">Google Play</a></li>
+        </ul>
+
+        <h2 class="lang-en">Core Skills</h2>
+        <h2 class="lang-de">Kernkompetenzen</h2>
+
+        <div class="skill-group">
+          <h4 class="lang-en">Data Analysis</h4>
+          <h4 class="lang-de">Data Engineering &amp; Analyse</h4>
+          <p>PyTorch, scikit-learn, Matplotlib, Pandas, NumPy</p>
+        </div>
+        <div class="skill-group">
+          <h4>NLP</h4>
+          <p class="lang-en">Hugging Face Transformers, spaCy, embeddings &amp; semantic search, vector databases, NER, structured information extraction</p>
+          <p class="lang-de">Hugging Face Transformers, spaCy, Embeddings &amp; semantische Suche, Vektordatenbanken, Fine-Tuning, NER, strukturierte Informationsextraktion</p>
+        </div>
+        <div class="skill-group">
+          <h4 class="lang-en">Generative AI</h4>
+          <h4 class="lang-de">Generative KI</h4>
+          <p>LLMs, Prompt Engineering, LangChain, Langdock, OpenAI, Anthropic Claude &amp; Gemini APIs, Azure OpenAI, RAG, AI Agents, LLM Evaluation, ElevenLabs, Multimodal AI</p>
+        </div>
+        <div class="skill-group">
+          <h4 class="lang-en">Web &amp; Mobile</h4>
+          <h4 class="lang-de">Web &amp; Mobile</h4>
+          <p>React, Vite, Tailwind, Capacitor, PySide6</p>
+        </div>
+        <div class="skill-group">
+          <h4 class="lang-en">Cloud &amp; Data</h4>
+          <h4 class="lang-de">Cloud &amp; Daten</h4>
+          <p class="lang-en">Supabase, PostgreSQL, Cloudflare, data warehousing, web scraping, GCP</p>
+          <p class="lang-de">Supabase, PostgreSQL, Cloudflare, Web Scraping, GCP</p>
+        </div>
+        <div class="skill-group">
+          <h4 class="lang-en">Testing &amp; DevOps</h4>
+          <h4 class="lang-de">Testing &amp; DevOps</h4>
+          <p>Playwright, Vitest, k6, CI/CD, Sentry, Docker, unit testing, OWASP ZAP</p>
+        </div>
+        <div class="skill-group">
+          <h4 class="lang-en">AI Governance</h4>
+          <h4 class="lang-de">KI-Governance</h4>
+          <p>EU AI Act, ISO/IEC 42001, data governance</p>
+        </div>
+
+        <h2 class="lang-en">Languages</h2>
+        <h2 class="lang-de">Sprachen</h2>
+        <div class="tag-list" style="margin-bottom:32px;">
+          <span class="lang-en">Croatian – Native</span><span class="lang-de">Kroatisch – Muttersprache</span>
+          <span class="lang-en">English – C2</span><span class="lang-de">Englisch – C2</span>
+          <span class="lang-en">German – C1</span><span class="lang-de">Deutsch – C1</span>
+          <span class="lang-en">Dutch – B2</span><span class="lang-de">Niederländisch – B2</span>
+          <span class="lang-en">Russian – A2</span><span class="lang-de">Russisch – A2</span>
+        </div>
+
+        <h2 class="lang-en">Interests</h2>
+        <h2 class="lang-de">Interessen</h2>
+        <div class="tag-list">
+          <span class="lang-en">Powerlifting</span><span class="lang-de">Powerlifting</span>
+          <span class="lang-en">MMA &amp; Grappling</span><span class="lang-de">MMA &amp; Grappling</span>
+          <span class="lang-en">Photography</span><span class="lang-de">Fotografie</span>
+          <span class="lang-en">Drawing</span><span class="lang-de">Zeichnen</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="lang-en">Last updated 2026</footer>
+  <footer class="lang-de">Zuletzt aktualisiert 2026</footer>
+</div>
+
+<script>
+  function setLang(lang){
+    document.documentElement.setAttribute('data-lang', lang);
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    document.getElementById('btn-de').classList.toggle('active', lang === 'de');
+    try { localStorage.setItem('cv-lang', lang); } catch(e) {}
+  }
+  (function(){
+    var saved = null;
+    try { saved = localStorage.getItem('cv-lang'); } catch(e) {}
+    if (!saved) { saved = (navigator.language || '').toLowerCase().startsWith('de') ? 'de' : 'en'; }
+    setLang(saved === 'de' ? 'de' : 'en');
+  })();
+</script>
+</body>
+</html>
