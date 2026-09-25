@@ -46,8 +46,11 @@
   .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:40px;}
   header.head{display:flex;gap:28px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;margin-bottom:8px;}
   .photo{
-    width:96px;height:96px;border-radius:50%;object-fit:cover;flex-shrink:0;
+    width:180px;height:180px;border-radius:50%;object-fit:cover;flex-shrink:0;
     border:2px solid var(--line);
+  }
+  @media (max-width:700px){
+    .photo{width:120px;height:120px;}
   }
   h1{font-size:32px;margin:0 0 6px;color:var(--accent);}
   .tagline{color:var(--sub);max-width:60ch;font-size:15px;}
